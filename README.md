@@ -29,16 +29,16 @@ Any move that would cause the robot to fall must be ignored.
 
 ## Test Data- Input and Output
 a)
-PLACE 0,0,NORTH
+PLACE 0 0 NORTH
 MOVE
 REPORT
-Output: 0,1,NORTH
+Output: Robot at XY (0,1), Direction NORTH
 
 b)
-PLACE 0,0,NORTH
+PLACE 0 0 NORTH
 LEFT
 REPORT
-Output: 0,0,WEST
+Output: Robot at XY (0,0), Direction WEST
 
 c)
 PLACE 1,2,EAST
@@ -47,6 +47,6 @@ MOVE
 LEFT
 MOVE
 REPORT
-Output: 3,3,NORTH
+Output: Robot at XY (3,3), Direction NORTH
 
 
