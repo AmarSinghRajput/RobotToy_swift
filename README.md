@@ -41,7 +41,7 @@ REPORT
 Output: Robot at XY (0,0), Direction WEST
 
 c)
-PLACE 1,2,EAST
+PLACE 1 2 EAST
 MOVE
 MOVE
 LEFT
