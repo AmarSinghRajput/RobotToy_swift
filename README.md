@@ -7,6 +7,11 @@
 that would result in the robot falling from the table must be prevented, however further valid movement commands must still
 be allowed.  
 
+## Steps to run:
+1. clone the repo, build and run in xcode.
+2. Provide commands in textfield UI and press button.
+3. Output report can be seen on textview present in UI.
+   
 ## Commands
 - PLACE X,Y,Direction: will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST. The origin (0,0) can be considered to be the SOUTH WEST most corner. The first valid command to the robot is a PLACE command, after that, any sequence of commands may be issued, in any order, including another PLACE command. The application should discard all commands in the sequence until a valid PLACE command has been executed.
 - *MOVE*: will move the toy robot one unit forward in the direction it is currently facing.
@@ -44,7 +49,4 @@ MOVE
 REPORT
 Output: 3,3,NORTH
 
-## Steps to run:
-1. clone the repo, build and run in xcode.
-2. Provide commands in textfield UI and press button.
-3. Output report can be seen on textview present in UI. 
+
